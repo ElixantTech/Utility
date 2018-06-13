@@ -1,5 +1,5 @@
 {
-  "name": "elixant/utilities",
+  "name": "elixant/utility",
   "description": "Elixant Platform Utilities",
   "type": "project",
   "authors": [
@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Elixant\\Utilities\\": "src/"
+      "Elixant\\Utility\\": "src/"
     },
     "files": [
       "src/Helpers.php"
