@@ -1,0 +1,40 @@
+{
+  "name": "elixant/utilities",
+  "description": "Elixant Platform Utilities",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Zander Schmautz",
+      "email": "zander.schmautz@elixant.ca",
+      "role": "President & CEO",
+      "homepage": "https://www.elixant.ca"
+    }
+  ],
+  "license": "proprietary",
+  "keywords": ["food2u", "core", "elixant", "delivery"],
+  "homepage": "https://www.elixant.ca",
+  "require": {
+    "php": "^7.1.3"
+  },
+  "require-dev": {
+    "filp/whoops": "2.2.*",
+    "ext-mbstring": "*",
+    "doctrine/inflector": "~1.1",
+    "symfony/var-dumper": "4.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elixant\\Utilities\\": "src/"
+    },
+    "files": [
+      "src/Helpers.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
